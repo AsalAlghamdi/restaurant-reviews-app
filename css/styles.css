@@ -192,7 +192,7 @@ nav h1 a {
 .inside header {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 1000;
 }
 .inside #map-container {
@@ -211,7 +211,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 100%;
+  width: 100vw;
 }
 #restaurant-name {
   color: #f18200;
@@ -289,8 +289,13 @@ nav h1 a {
   }
   .inside #restaurant-container {
     width: 100%;
+    padding: 10px;
   }
   .inside #reviews-container {
+    width: 100%;
+    padding: 0;
+  }
+  #breadcrumb {
     width: 100%;
   }
 }
